@@ -9,7 +9,7 @@ export class MyElement extends LitElement {
   render() {
     return html`
       <h1 class="text-6xl">Hello Vite + Lit </h1>
-      <button class="btn">Hello daisyUI</button>
+      <button class="btn btn-secondary text-lg">Hello daisyUI</button>
     `;
   }
 }
